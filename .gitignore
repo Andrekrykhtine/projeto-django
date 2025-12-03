@@ -1,0 +1,97 @@
+# Python / Django
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+*.pot
+*.mo
+*.sqlite3
+db.sqlite3
+/media
+/staticfiles
+staticfiles/
+
+# Ambientes virtuais
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Configuração local Django
+*.local_settings.py
+
+# Testes / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+
+# IDEs / editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribuição / build
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Docker / Compose
+# Pastas e arquivos gerados pelos containers
+docker-data/
+db-data/
+pgdata/
+postgres-data/
+*.pid
+
+# Logs e artefatos
+*.log
+logs/
+**/logs/
+
+# Arquivos de env usados pelo Docker / Django
+.env.*
+.env.local
+.env.dev
+.env.prod
+.env.staging
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
